@@ -1,0 +1,52 @@
+.inter {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+.bg_img {
+  background-image: url("../Assects/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.gredient {
+  background-image: url("../Assects/Solid\ 60%\ fill.png");
+}
+.gradient2 {
+  background-image: url("../Assects/Gradient.png ");
+}
+
+.ppright {
+  font-family: "PP Right Grotesk";
+}
+.line_height {
+  line-height: 84px;
+}
+.spacing {
+  letter-spacing: -3px;
+}
+.underline_1 {
+  background-image: url("../Assects//line.png");
+  background-repeat: no-repeat;
+  background-position: 0 80%;
+  background-size: 100%;
+}
+
+.accordion {
+  max-width: 768px;
+}
+
+.accordion-item {
+  list-style: none;
+}
+
+.accordion-toggle {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+rdion-toggle h3 {
+  margin: 0;
+}
