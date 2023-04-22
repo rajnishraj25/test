@@ -51,7 +51,73 @@ const Hero = () => {
                   </button>
                 </div>
               </div>
-              <div className="form border-2 border-btnwhite w-[400px] h-[480px]"></div>
+              <form className="form  w-[440px] h-[480px] p-2">
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="First Name"
+                      className="px-1 py-3 text-center bg-transparent border-2 border-btnwhite outline-0 rounded-[5px] text-btnwhite font-medium"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="First Name"
+                      className="px-1 py-3 text-center bg-transparent border-2 border-btnwhite outline-0 rounded-[5px] text-btnwhite font-medium"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <input
+                    type="phone"
+                    placeholder="Contact Number"
+                    className="px-1 py-3 text-center bg-transparent border-2 border-btnwhite outline-0 rounded-[5px] text-btnwhite font-medium w-full my-3"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="phone"
+                    placeholder="Email"
+                    className="px-1 py-3 text-center bg-transparent border-2 border-btnwhite outline-0 rounded-[5px] text-btnwhite font-medium w-full my-3"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="phone"
+                    placeholder="other field"
+                    className="px-1 py-3 text-center bg-transparent border-2 border-btnwhite outline-0 rounded-[5px] text-btnwhite font-medium w-full my-3"
+                  />
+                </div>
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <input
+                      type="phone"
+                      placeholder="other field"
+                      className="px-1 py-3 text-center bg-transparent border-2 border-btnwhite outline-0 rounded-[5px] text-btnwhite font-medium  my-3"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="phone"
+                      placeholder="other field"
+                      className="px-1 py-3 text-center bg-transparent border-2 border-btnwhite outline-0 rounded-[5px] text-btnwhite font-medium  my-3"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <input
+                    type="phone"
+                    placeholder="other field"
+                    className="px-1 py-3 text-center bg-transparent border-2 border-btnwhite outline-0 rounded-[5px] text-btnwhite font-medium w-full my-3"
+                  />
+                </div>
+                <div className="flex justify-center mt-2">
+                  <button className="w-auto text-sm font-medium h-10 bg-btnwhite rounded-md cursor-pointer text-black px-[50px] py-2 m-auto">
+                    Get a call back
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>

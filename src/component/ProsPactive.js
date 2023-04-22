@@ -2,7 +2,7 @@ import React from "react";
 
 const ProsPactive = () => {
   return (
-    <div className="w-full  h-[769px] mt-14">
+    <div className="w-full  h-[769px] mt-24 pt-5">
       <div className="container px-24 w-full h-fukk">
         <div className="">
           <h3 className="text-center text-btnwhite font-ppright text-7xl ">
@@ -16,7 +16,8 @@ const ProsPactive = () => {
         <div className="grid grid-cols-5 gap-12 mt-12">
           <div className="w-[212px] h-[138px] rounded-[5px] border-2 border-btnwhite px-2 py-[25px] text-center">
             <h3 className="font-ppright font-medium text-4xl text-btnwhite ">
-              28+ <span className="font-light">LPA</span>{" "}
+              <span className="font-[100px] text-[24px] ">INR </span>
+              28+ <span className="font-[100px] text-[24px] ">LPA</span>{" "}
             </h3>
             <div className="w-[172px] h-0 border-2 border-yello mt-1"></div>
             <p className="inter text-[20px] font-light text-btnwhite leading-[26px] mt-1">
@@ -25,7 +26,8 @@ const ProsPactive = () => {
           </div>
           <div className="w-[212px] h-[138px] rounded-[5px] border-2 border-btnwhite px-2 py-[25px] text-center">
             <h3 className="font-ppright font-medium text-4xl text-btnwhite ">
-              18+ <span className="font-light">LPA</span>{" "}
+              <span className="font-[100px] text-[24px] ">INR </span>
+              18+<span className="font-[100px] text-[24px] ">LPA</span>{" "}
             </h3>
             <div className="w-[172px] h-0 border-2 border-yello mt-1"></div>
             <p className="inter text-[20px] font-light text-btnwhite leading-[26px] mt-1">
@@ -34,7 +36,8 @@ const ProsPactive = () => {
           </div>
           <div className="w-[212px] h-[138px] rounded-[5px] border-2 border-btnwhite px-2 py-[25px] text-center">
             <h3 className="font-ppright font-medium text-4xl text-btnwhite ">
-              30+ <span className="font-light">LPA</span>{" "}
+              <span className="font-[100px] text-[24px] ">INR</span> 30+{" "}
+              <span className="font-[100px] text-[24px] ">LPA</span>{" "}
             </h3>
             <div className="w-[172px] h-0 border-2 border-yello mt-1"></div>
             <p className="inter text-[20px] font-light text-btnwhite leading-[26px] mt-1">
@@ -43,7 +46,8 @@ const ProsPactive = () => {
           </div>
           <div className="w-[212px] h-[138px] rounded-[5px] border-2 border-btnwhite px-2 py-[25px] text-center">
             <h3 className="font-ppright font-medium text-4xl text-btnwhite ">
-              10-20 <span className="font-light">LPA</span>{" "}
+              <span className="font-[100px] text-[24px] ">INR</span> 10-20{" "}
+              <span className="font-[100px] text-[24px] ">LPA</span>{" "}
             </h3>
             <div className="w-[172px] h-0 border-2 border-yello mt-1"></div>
             <p className="inter text-[20px] font-light text-btnwhite leading-[26px] mt-1">
@@ -52,7 +56,8 @@ const ProsPactive = () => {
           </div>
           <div className="w-[212px] h-[138px] rounded-[5px] border-2 border-btnwhite px-2 py-[25px] text-center">
             <h3 className="font-ppright font-medium text-4xl text-btnwhite ">
-              28+ <span className="font-light">LPA</span>{" "}
+              <span className="font-[100px] text-[24px] ">INR</span> 28+{" "}
+              <span className="font-[100px] text-[24px] ">LPA</span>{" "}
             </h3>
             <div className="w-[172px] h-0 border-2 border-yello mt-1"></div>
             <p className="inter text-[20px] font-light text-btnwhite leading-[26px] mt-1">
@@ -61,7 +66,8 @@ const ProsPactive = () => {
           </div>
           <div className="w-[212px] h-[138px] rounded-[5px] border-2 border-btnwhite px-2 py-[25px] text-center">
             <h3 className="font-ppright font-medium text-4xl text-btnwhite ">
-              7-20 <span className="font-light">LPA</span>{" "}
+              <span className="font-[100px] text-[24px] ">INR</span> 7-20{" "}
+              <span className="font-[100px] text-[24px] ">LPA</span>{" "}
             </h3>
             <div className="w-[172px] h-0 border-2 border-yello mt-1"></div>
             <p className="inter text-[20px] font-light text-btnwhite leading-[26px] mt-1">
@@ -70,7 +76,8 @@ const ProsPactive = () => {
           </div>
           <div className="w-[212px] h-[138px] rounded-[5px] border-2 border-btnwhite px-2 py-[25px] text-center">
             <h3 className="font-ppright font-medium text-4xl text-btnwhite ">
-              7-20 <span className="font-light">LPA</span>{" "}
+              <span className="font-[100px] text-[24px] ">INR</span> 7-20{" "}
+              <span className="font-[100px] text-[24px] ">LPA</span>{" "}
             </h3>
             <div className="w-[172px] h-0 border-2 border-yello mt-1"></div>
             <p className="inter text-[20px] font-light text-btnwhite leading-[26px] mt-1">
@@ -79,7 +86,8 @@ const ProsPactive = () => {
           </div>
           <div className="w-[212px] h-[138px] rounded-[5px] border-2 border-btnwhite px-2 py-[25px] text-center">
             <h3 className="font-ppright font-medium text-4xl text-btnwhite ">
-              10-20 <span className="font-light">LPA</span>{" "}
+              <span className="font-[100px] text-[24px] ">INR</span> 10-20{" "}
+              <span className="font-[100px] text-[24px] ">LPA</span>{" "}
             </h3>
             <div className="w-[172px] h-0 border-2 border-yello mt-1"></div>
             <p className="inter text-[20px] font-light text-btnwhite leading-[26px] mt-1">
@@ -88,7 +96,8 @@ const ProsPactive = () => {
           </div>
           <div className="w-[212px] h-[138px] rounded-[5px] border-2 border-btnwhite px-2 py-[25px] text-center">
             <h3 className="font-ppright font-medium text-4xl text-btnwhite ">
-              15-20 <span className="font-light">LPA</span>{" "}
+              <span className="font-[100px] text-[24px] ">INR</span> 15-20{" "}
+              <span className="font-[100px] text-[24px] ">INR</span>{" "}
             </h3>
             <div className="w-[172px] h-0 border-2 border-yello mt-1"></div>
             <p className="inter text-[20px] font-light text-btnwhite leading-[26px] mt-1">
@@ -97,7 +106,8 @@ const ProsPactive = () => {
           </div>
           <div className="w-[212px] h-[138px] rounded-[5px] border-2 border-btnwhite px-2 py-[25px] text-center">
             <h3 className="font-ppright font-medium text-4xl text-btnwhite ">
-              12-25 <span className="font-light">LPA</span>{" "}
+              <span className="font-[100px] text-[24px] ">INR</span> 12-25{" "}
+              <span className="font-[100px] text-[24px] ">INR</span>{" "}
             </h3>
             <div className="w-[172px] h-0 border-2 border-yello mt-1"></div>
             <p className="inter text-[20px] font-light text-btnwhite leading-[26px] mt-1">

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const TestToggle = () => {
-  const [text1, setText1] = useState(false);
+  const [text1, setText1] = useState(true);
   const [text2, setText2] = useState(false);
   const HandleClick = () => {
     setText1(!text1);
@@ -54,6 +54,29 @@ const TestToggle = () => {
           <div className="w-[690px] h-[310px] border-2 rounded-[6px] border-yello p-6 text-btnwhite text-[20px] inter leading-[25px] tracking-tighter">
             {text1 && (
               <div>
+                {/* <p className="my-4">
+                  Have a bachelor’s degree in engineering or science (4-year
+                  program) or a master’s degree in science, MCA, or in a related
+                  field.
+                </p>
+                <p className="my-4">
+                  Have a minimum of 60% marks in UG/PG or a minimum CGPA of 6.0
+                  on a scale of 10 with corresponding proportional requirements
+                  when the scales are other than 10.
+                </p>
+                <p className="my-4">
+                  Have a work expeirence of minimum 2 years (after qualifying
+                  degree)
+                </p>
+                <p className="my-4">
+                  Have a work expeirence of minimum 2 years (after qualifying
+                  degree)
+                </p>
+                <p className="my-4">
+                  Qualify for the written test conducted by Futurense Qualify
+                  for the written test conducted by Futurense Have the zeel to
+                  keep up with the ongoing trends in technology space
+                </p> */}
                 <p className="my-4">
                   You want a future-proof career after the unfolding of
                   Generative Artificial Intelligence.
@@ -75,21 +98,28 @@ const TestToggle = () => {
 
             {text2 && (
               <div>
-                <p className="my-4">
-                  You want a future-proof career after the unfolding of
-                  Generative Artificial Intelligence.
+                <p className="my-0">
+                  Have a bachelor’s degree in engineering or science (4-year
+                  program) or a master’s degree in science, MCA, or in a related
+                  field.
                 </p>
-                <p className="my-4">
-                  You are aspiring for a high growth career in Data Science and
-                  Engineering, this program provides you with the right
-                  knowledge, tools, prestigious IIT PG Diploma credential to
-                  help you succeed.
+                <p className="my-1">
+                  Have a minimum of 60% marks in UG/PG or a minimum CGPA of 6.0
+                  on a scale of 10 with corresponding proportional requirements
+                  when the scales are other than 10.
                 </p>
-                <p className="my-4">
-                  For aspiring and current software, and technology
-                  professionals, this PG diploma program helps hone high in
-                  demand skills such as big data engineering, cloud computing,
-                  and machine learning.
+                <p className="my-2">
+                  Have a work expeirence of minimum 2 years (after qualifying
+                  degree)
+                </p>
+                <p className="my-2">
+                  Have a work expeirence of minimum 2 years (after qualifying
+                  degree)
+                </p>
+                <p className="my-1">
+                  Qualify for the written test conducted by Futurense Qualify
+                  for the written test conducted by Futurense Have the zeel to
+                  keep up with the ongoing trends in technology space
                 </p>
               </div>
             )}

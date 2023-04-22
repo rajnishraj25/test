@@ -42,14 +42,22 @@ const AccordianImage = () => {
       <div className="container w-full h-full px-24 py-24">
         <div className="flex gap-0 h-full justify-between items-center">
           <div>
-            <h2 className="text-[60px] text-center text-btnwhite font-medium font-ppright leading-[72px] tracking-tighter ">
-              The Highlights
+            <h2 className="text-[56px] text-left text-btnwhite font-medium font-ppright leading-[56px] tracking-[-2px] pb-2">
+              Not your typical PG <br /> Diploma Program! 
             </h2>
             <div className="h-[380px] w-[380px] border">
-              {isActive && <img src={component1} alt="" />}
-              {isActive1 && <img src={component2} alt="" />}
-              {isActive2 && <img src={component3} alt="" />}
-              {isActive3 && <img src={component4} alt="" />}
+              {isActive && (
+                <img src={component1} alt="img" className="w-full h-full" />
+              )}
+              {isActive1 && (
+                <img src={component2} alt="img" className="w-full h-full" />
+              )}
+              {isActive2 && (
+                <img src={component3} alt="img" className="w-full h-full" />
+              )}
+              {isActive3 && (
+                <img src={component4} alt="img" className="w-full h-full" />
+              )}
             </div>
           </div>
           <div className="w-[750px] my-8">
