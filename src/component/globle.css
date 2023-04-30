@@ -1,3 +1,7 @@
+body {
+  font-family: "PPGrotesk";
+}
+
 .inter {
   font-family: "DM Sans", sans-serif;
   font-family: "Inter", sans-serif;
@@ -9,9 +13,28 @@
   background-position: center;
   background-size: cover;
 }
-
+.plant_img {
+  background-image: url("../Assects/plant.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transform: rotate(14.11deg);
+}
+.doller_image {
+  background-image: url("../Assects/doller.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* transform: rotate(14.11deg); */
+}
 .pic {
-  background-image: url("../Assects/Pic.png");
+  background-image: url("../Assects/Dip.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.pic1 {
+  background-image: url("../Assects/Subh.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -107,3 +130,126 @@ rdion-toggle h3 {
   width: 190px;
   height: 100px;
 }
+
+/* buttom interaction */
+
+.btn_interaction::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #fdba2f;
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.btn_interaction:hover::before,
+.btn_interaction:focus::before {
+  transform: scaleX(1);
+}
+
+.btn_interaction {
+  transition: color 300ms ease-in-out;
+  z-index: 1;
+}
+
+.btn_interaction:hover::before,
+.btn_interaction:focus::before {
+  color: #000;
+  border-radius: 5px;
+}
+
+/* black button */
+
+.btn_interaction_black::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #ffffff;
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.btn_interaction_black:hover::before,
+.btn_interaction_black:focus::before {
+  transform: scaleX(1);
+}
+
+.btn_interaction_black {
+  transition: color 300ms ease-in-out;
+  z-index: 1;
+  color: white;
+}
+
+.btn_interaction_black:hover::before,
+.btn_interaction_black:focus::before {
+  color: #000;
+}
+
+/* mobile code */
+.mob_bg_img {
+  background-image: url("../Assects/mobileBg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gredient_mob {
+  background-image: url("../Assects/Solid\ 60%\ filMob.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gredient_mob2 {
+  background-image: url("../Assects/GradientMob.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slick-dots li {
+  width: 20px !important;
+  height: 2px !important;
+  background-color: gainsboro !important;
+}
+
+.slick-dots li .slick-active {
+  background-color: #fdba2f !important;
+}
+
+/* font face */
+
+@font-face {
+  font-family: "PP Grotesk";
+  src: url("../font/__MACOSX/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.woff2")
+      format("woff2"),
+    url("../font/__MACOSX/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.woff")
+      format("woff"),
+    url("../font/__MACOSX/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.otf")
+      format("otf"),
+    url("../font/__MACOSX/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.ttf")
+      format("ttf");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "PP Grotesk";
+  src: url("../font/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.woff")
+      format("woff"),
+    url("../font/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.woff2")
+      format("woff2"),
+    url("../font/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.otf")
+      format("otf"),
+    url("../font/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.ttf")
+      format("ttf");
+  font-weight: normal;
+  font-style: normal;
+} */

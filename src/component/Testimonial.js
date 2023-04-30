@@ -1,11 +1,11 @@
 import React from "react";
-import Pic from "../Assects/Pic.png";
+// import Pic from "../Assects/Pic.png";
 
 const Testimonial = () => {
   return (
-    <div className="w-full h-[634px]">
-      <div className="containe w-full h-full px-24">
-        <div className="w-[800px] h-[106px] text-center m-auto text-btnwhite">
+    <div className="w-full min-h-[634px]">
+      <div className="w-full h-full px-24">
+        <div className="max-w-[800px] w-full max-h-[106px] h-full text-center m-auto text-btnwhite">
           <h2 className="font-ppright font-medium text-[72px] leading-[68px] tracking-[-4px]">
             Program Directors
           </h2>
@@ -14,14 +14,14 @@ const Testimonial = () => {
             Experts
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4 mt-12 px-10">
-          <div className="w-[600px] h-[324px] border-2 border-btnwhite rounded-[5px] p-4">
+        <div className="flex justify-between mt-12 px-10 gap-8 ">
+          <div className="max-w-[600px] w-full min-h-[324px] border-2 border-btnwhite rounded-[5px] p-4">
             <div className="flex items-center justify-between gap-4">
               <div className="w-[160px] h-[116px] pic rounded-[5px]">
                 {/* <img src={Pic} alt="" className="w-full h-full" /> */}
               </div>
               <div className="text-btnwhite">
-                <h3 className="font-ppright font-normal text-[40px] leading-[50px] tracking-[-3px]">
+                <h3 className="font-ppright font-normal text-[40px] leading-[50px] tracking-[-2px]">
                   Dr. Dip Sankar Banerjee
                 </h3>
                 <p className="inter text-[18px] font-light leading-[18.9px] tracking-[-1px]">
@@ -41,9 +41,9 @@ const Testimonial = () => {
               Architecture, and Data Analytics. 
             </p>
           </div>
-          <div className="w-[600px] h-[324px] border-2 border-btnwhite rounded-[5px] p-4">
+          <div className="max-w-[600px] w-full min-h-[324px] border-2 border-btnwhite rounded-[5px] p-4">
             <div className="flex items-center justify-between gap-4">
-              <div className="w-[160px] h-[116px] pic rounded-[5px]">
+              <div className="w-[160px] h-[116px] pic1 rounded-[5px]">
                 {/* <img src={Pic} alt="" className="w-full h-full" /> */}
               </div>
               <div className="text-btnwhite">

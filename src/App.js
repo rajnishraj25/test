@@ -19,10 +19,22 @@ import ProgrameFee from "./component/ProgrameFee";
 import Collabration from "./component/Collabration";
 import Footer from "./component/Footer";
 import AutoScroll from "./component/AutoScroll";
+import LifeRaceMob from "./MobileComponent/LifeRaceMob";
+import TextToggleMob from "./MobileComponent/TextToggleMob";
+import IItDreamMob from "./MobileComponent/IItDreamMob";
+import NoWorryMob from "./MobileComponent/NoWorryMob";
+
 function App() {
+  let width = window.innerWidth;
+  console.log(width);
   return (
-    <div className="bg-black ">
+    <div className="bg-black">
       <Hero />
+      {/* <LifeRaceMob />
+      <TextToggleMob />
+      <IItDreamMob />
+      <NoWorryMob /> */}
+
       <ClockSection />
       <Counter />
       <AccordianImage />

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import arrow from "../Assects/arrow.png";
+import Brochure from "../Assects/Brochure.pdf";
 
 const Accordian = () => {
   const [Active1, setActive1] = useState(false);
@@ -24,21 +25,24 @@ const Accordian = () => {
 
   return (
     <div className="w-full h-[560px]">
-      <div className="container w-full h-full px-24 flex items-center justify-center">
-        <div className=" flex items-center w-full justify-between">
+      <div className="w-full h-full px-24 flex items-center justify-center">
+        <div className=" flex items-center w-full justify-between gap-10">
           <div className="w-[524px] h-[281px] text-left text-btnwhite">
             <h2 className="text-[72px] font-ppright font-medium leading-[60px]  tracking-[-3px]">
               {" "}
               Programme Curriculum
             </h2>
-            <p className="font-medium inter text-[18px] leading-[18.9px] tracking-tighter mt-6">
-              Frequently asked questions ordered by popularity. Remember that if
-              the visitor has not committed to the call to action, they may
-              still have questions (doubts) that can be answered.
+            <p className="font-medium inter text-[18px] leading-[19.9px] tracking-[-0.25pz] mt-6">
+              Finely curated by esteemed IIT Jodhpur Faculty and ex-MAANG
+              experts - the curriculum binds the areas with hands-on practical
+              sessions, real life case studies, assignments, which shall help
+              become a successful tech-leader in the global industry!
             </p>
-            <button className="w-auto h-12 px-11 py-3 rounded-md bg-black text-btnwhite border-2 border-btnwhite mt-6">
-              Download Brochure
-            </button>
+            <a href={Brochure} download>
+              <button className="w-auto h-12 px-11 py-3 rounded-md bg-black text-btnwhite border-2 border-btnwhite mt-6 relative btn_interaction_black hover:text-black focus:text-black">
+                Download Brochure
+              </button>
+            </a>
           </div>
           {/* acordian */}
           <div className="w-[650px]">
@@ -72,16 +76,24 @@ const Accordian = () => {
                     <li className="trimes list-disc pl-4">
                       Database Design and Modelling
                     </li>
-                    <p className="trimes font-medium">Electives (Any 2)</p>
+                    <li className="trimes font-medium list-disc">
+                      Electives (Any 2)
+                    </li>
                     <ul>
                       <li className="trimes list-decimal pl-4">
-                        Applied Mathematics and Statistics
+                        Fundamentals of Business and Data Analytics
                       </li>
                       <li className="trimes list-decimal pl-4">
-                        Programming Tools and Techniques for Data Science
+                        Fundamentals of Data Science
                       </li>
                       <li className="trimes list-decimal pl-4">
-                        Database Design and Modelling
+                        Data Visualization and Dashboards
+                      </li>
+                      <li className="trimes list-decimal pl-4">
+                        Cloud Fundamentals
+                      </li>
+                      <li className="trimes list-decimal pl-4">
+                        Data Mining & Warehousing
                       </li>
                     </ul>
                   </ul>
@@ -107,16 +119,21 @@ const Accordian = () => {
                     alt="img"
                   />
                 </div>
+
                 {Active2 && (
                   <ul className="accordion-content text-sm text-btnwhite">
                     <li className="trimes list-disc pl-4 ">
-                      Data Mining & Warehousing
+                      Machine Learning 
                     </li>
-                    <li className="trimes list-disc pl-4">Machine Learning</li>
                     <li className="trimes list-disc pl-4">
                       Distributed Systems and Platforms
                     </li>
-                    <p className="trimes font-medium">Electives (Any 2)</p>
+                    <li className="trimes list-disc pl-4">
+                      Web and Social Network Analytics
+                    </li>
+                    <li className="trimes font-medium list-disc">
+                      Electives (Any 2)
+                    </li>
                     <ul>
                       <li className="trimes list-decimal pl-4">
                         Digital Marketing Analytics
@@ -127,7 +144,7 @@ const Accordian = () => {
                       <li className="trimes list-decimal pl-4">
                         Retail Analytics
                       </li>
-                      <li className="trime list-decimal pl-4s">
+                      <li className="trimes list-decimal pl-4">
                         People Analytics
                       </li>
                     </ul>
@@ -163,7 +180,9 @@ const Accordian = () => {
                       Advanced Data Engineering with Cloud
                     </li>
 
-                    <p className="trimes font-medium">Electives (Any 2)</p>
+                    <li className="trimes font-medium list-disc">
+                      Electives (Any 2)
+                    </li>
                     <ul>
                       <li className="trimes list-decimal pl-4">
                         Stream Processing and Analytics

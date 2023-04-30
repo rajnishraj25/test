@@ -8,10 +8,10 @@ import vector from "../Assects/Vector.png";
 
 const ClockSection = () => {
   return (
-    <div className="w-full h-[400px]">
-      <div className="container px-24 text-btnwhite w-full h-full flex  items-center justify-center  ">
+    <div className="w-full min-h-[400px]">
+      <div className=" px-24 py-24 text-btnwhite w-full h-full flex  items-center justify-center  ">
         <div className="grid grid-cols-3  w-full h-auto gap-10  ">
-          <div className="flex  gap-4   items-start  w-full">
+          <div className="max-w-[350px] flex  gap-4   items-start  w-full">
             <img src={clock} alt="" />
             <div>
               <h3 className="font-ppright text-[28px] font-medium">
@@ -22,7 +22,7 @@ const ClockSection = () => {
               </p>
             </div>
           </div>
-          <div className="flex  gap-4  items-start  w-full">
+          <div className="  min-w-[360px] flex  gap-4  items-start  w-full">
             <img src={calender} alt="" />
             <div>
               <h3 className="font-ppright text-[28px] font-medium">
@@ -31,7 +31,7 @@ const ClockSection = () => {
               <p className="inter text-[18px] font-normal">01 August, 2023</p>
             </div>
           </div>
-          <div className="flex gap-4  items-start  w-full">
+          <div className="min-w-[350px] flex gap-4  items-start  w-full">
             <img src={money} alt="" />
             <div>
               <h3 className="font-ppright text-[28px] font-medium">
@@ -40,7 +40,7 @@ const ClockSection = () => {
               <p className="inter text-[18px] font-normal">INR 3.10L</p>
             </div>
           </div>
-          <div className="flex  gap-4 items-start  w-full e">
+          <div className="min-w-[350px] flex  gap-4 items-start  w-full e">
             <img src={group} alt="" />
             <div>
               <h3 className="font-ppright text-[28px] font-medium">
@@ -52,7 +52,7 @@ const ClockSection = () => {
               </p>
             </div>
           </div>
-          <div className="flex gap-4  items-start  w-full">
+          <div className="min-w-[350px] flex gap-4  items-start  w-full">
             <img src={tick} alt="" />
             <div>
               <h3 className="font-ppright text-[28px] font-medium">
@@ -64,7 +64,7 @@ const ClockSection = () => {
               </p>
             </div>
           </div>
-          <div className="flex  gap-4 items-start  w-[70%]">
+          <div className=" min-w-[350px] flex  gap-4 items-start  w-full">
             <img src={vector} alt="" />
             <div>
               <h3 className="font-ppright text-[28px] font-medium">

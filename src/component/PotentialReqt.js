@@ -14,8 +14,8 @@ import img12 from "../Assects/google.png";
 
 const PotentialReqt = () => {
   return (
-    <div className="w-full h-[522px] bg-white">
-      <div className="container w-full h-full px-24 py-20">
+    <div className="w-full min-h-[522px] bg-white">
+      <div className="w-full h-full px-24 py-20">
         <div className="w-[700px] h-[110px] text-center text-black mx-auto">
           <h4 className="text-[72px] font-medium font-ppright tracking-[-4px] leading-[72px]">
             Potential Recuiters
