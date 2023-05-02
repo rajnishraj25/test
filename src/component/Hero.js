@@ -47,9 +47,11 @@ const Hero = () => {
                   alt="logo"
                   className="w-[72px] h-14 cursor-pointer"
                 />
-                <button className="w-auto relative btn_interaction text-sm font-medium h-10 bg-btnwhite rounded-md cursor-pointer text-black px-[50px] py-2">
-                  Apply to Upskill
-                </button>
+                <a href="https://admission.futurense.com/" target="_blank">
+                  <button className="w-auto relative btn_interaction text-sm font-medium h-10 bg-btnwhite rounded-md cursor-pointer text-black px-[50px] py-2">
+                    Apply Now
+                  </button>
+                </a>
               </div>
               <div className="max-w-[85px] w-full  max-h-14 h-full mt-8">
                 <img src={iitlogo} alt="logo" className="w-full h-full" />

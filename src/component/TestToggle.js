@@ -66,6 +66,26 @@ const TestToggle = () => {
               {text1 && (
                 <div>
                   <p className="my-2 border-l-2 border-yello pl-1">
+                    you are aspiring for a high growth career in data field,
+                    either in the data science, ML track or the engineering and
+                    MLOps track and Engineering, this program will provide you
+                    with the right knowledge, tools, technologies and a
+                    prestigious IIT PG Diploma credential to accelerate your
+                    career.
+                  </p>
+                  <p className="my-4 border-l-2 border-yello pl-1">
+                    you are an aspiring or a current software and technology
+                    professional, this PG diploma program will help you hone
+                    high in-demand skills such as big data engineering, cloud
+                    computing, and machine learning.
+                  </p>
+                  <p className="my-4 border-l-2 border-yello pl-1"></p>
+                </div>
+              )}
+
+              {text2 && (
+                <div>
+                  <p className="my-4 border-l-2 border-yello pl-1">
                     BTech in engineering, IT or science (4-year Program) or a
                     B.Sc or master’s degree in science, Math or Stats or
                     relevant field, or an MCA
@@ -80,25 +100,6 @@ const TestToggle = () => {
                     experience (after qualifying degree) at the time of
                     registration to the Program. (The applicant must qualify the
                     pre-screen test conducted by Futurense)
-                  </p>
-                </div>
-              )}
-
-              {text2 && (
-                <div>
-                  <p className="my-4 border-l-2 border-yello pl-1">
-                    you are aspiring for a high growth career in data field,
-                    either in the data science, ML track or the engineering and
-                    MLOps track and Engineering, this program will provide you
-                    with the right knowledge, tools, technologies and a
-                    prestigious IIT PG Diploma credential to accelerate your
-                    career.
-                  </p>
-                  <p className="my-4 border-l-2 border-yello pl-1">
-                    you are an aspiring or a current software and technology
-                    professional, this PG diploma program will help you hone
-                    high in-demand skills such as big data engineering, cloud
-                    computing, and machine learning.
                   </p>
                   {/* <p className="my-2 border-l-2 border-yello pl-1">
                   Have a work expeirence of minimum 2 years (after qualifying

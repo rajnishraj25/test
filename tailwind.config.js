@@ -8,7 +8,7 @@ module.exports = {
         yello: "#fdba2f",
       },
       fontFamily: {
-        ppright: "PP Right Grotesk",
+        // ppright: "PP Right Grotesk",
       },
     },
   },

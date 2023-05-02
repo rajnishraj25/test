@@ -1,5 +1,5 @@
 body {
-  font-family: "PPGrotesk";
+  font-family: "DM Sans";
 }
 
 .inter {
@@ -59,9 +59,9 @@ body {
   background-image: url("../Assects/Gradient.png ");
 }
 
-.ppright {
+/* .ppright {
   font-family: "PP Right Grotesk";
-}
+} */
 .line_height {
   line-height: 84px;
 }
@@ -226,30 +226,18 @@ rdion-toggle h3 {
 /* font face */
 
 @font-face {
-  font-family: "PP Grotesk";
+  font-family: "PP Right Grotesk";
   src: url("../font/__MACOSX/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.woff2")
       format("woff2"),
     url("../font/__MACOSX/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.woff")
       format("woff"),
     url("../font/__MACOSX/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.otf")
-      format("otf"),
+      format("opentype"),
     url("../font/__MACOSX/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.ttf")
-      format("ttf");
+      format("truetype"),
+    url("../font/__MACOSX/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.eot")
+      format("embedded-opentype");
 
   font-weight: normal;
   font-style: normal;
 }
-
-/* @font-face {
-  font-family: "PP Grotesk";
-  src: url("../font/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.woff")
-      format("woff"),
-    url("../font/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.woff2")
-      format("woff2"),
-    url("../font/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.otf")
-      format("otf"),
-    url("../font/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.ttf")
-      format("ttf");
-  font-weight: normal;
-  font-style: normal;
-} */

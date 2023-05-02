@@ -7,7 +7,7 @@ import z5 from "../Assects/z5.png";
 import z6 from "../Assects/z6.png";
 const AutoScroll = () => {
   return (
-    <div className="w-full min-h-[392px] bg-btnwhite">
+    <div className="hidden md:block w-full min-h-[392px] bg-btnwhite">
       <div className="w-full h-[392px] px-24">
         <div className="w-[690px] h-[110px] text-center m-auto">
           <h3 className="text-[72px] font-ppright leading-[67px] text-black font-medium tracking-[-3px]-">

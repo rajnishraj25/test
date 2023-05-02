@@ -10,8 +10,8 @@ const Counter = () => {
   });
   return (
     <div className="w-full min-h-[573px] h-full">
-      <div className="w-full h-full px-10 md:px-24  py-24 ">
-        <h3 className=" w-full text-[48px] leading-[52px] tracking-[-4px] text-btnwhite font-ppright md:text-[84px] md:line_height md:spacing md:my-0 font-medium md:px-4 text-center">
+      <div className="w-full h-full px-10 py-16 md:px-24  md:py-24 ">
+        <h3 className=" w-full text-[44px] leading-[50px] tracking-[-3px] text-btnwhite font-ppright md:text-[84px] md:line_height md:spacing md:my-0 font-medium md:px-4 text-center ">
           Program
           <span className="bg-yello text-black pr-1 "> Highlights </span>
         </h3>
