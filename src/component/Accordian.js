@@ -24,7 +24,7 @@ const Accordian = () => {
   };
 
   return (
-    <div className=" w-full h-[591px]  md:h-[560px]">
+    <div className=" w-full min-h-[591px]  md:h-[560px]">
       <div className="w-full h-full px-10 py-16 md:py-0 md:px-24 flex items-center justify-center">
         <div className=" flex flex-col md:flex-row items-center w-full justify-between gap-10">
           <div className="w-full md:w-[524px] md:h-[281px] text-left text-btnwhite">
@@ -181,7 +181,7 @@ const Accordian = () => {
                     </li>
 
                     <li className="trimes font-medium list-disc">
-                      Electives (Any 2)
+                      Electives (Any 1)
                     </li>
                     <ul>
                       <li className="trimes list-decimal pl-4">

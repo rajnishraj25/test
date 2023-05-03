@@ -1,5 +1,5 @@
 body {
-  font-family: "DM Sans";
+  font-family: "PP Right Grotesk";
 }
 
 .inter {
@@ -26,6 +26,12 @@ body {
   background-position: center;
   background-size: cover;
   /* transform: rotate(14.11deg); */
+}
+.line1 {
+  background-image: url("../Assects/line1.png");
+  background-position: 0 80%;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .pic {
   background-image: url("../Assects/Dip.png");
@@ -224,20 +230,14 @@ rdion-toggle h3 {
 }
 
 /* font face */
-
 @font-face {
   font-family: "PP Right Grotesk";
-  src: url("../font/__MACOSX/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.woff2")
-      format("woff2"),
-    url("../font/__MACOSX/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.woff")
-      format("woff"),
-    url("../font/__MACOSX/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.otf")
-      format("opentype"),
-    url("../font/__MACOSX/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.ttf")
-      format("truetype"),
-    url("../font/__MACOSX/PP\ Right\ Grotesk\ -\ Medium/._PPRightGrotesk-Medium.eot")
+  src: url("../component/fonts/PPRightGrotesk-Medium.woff2") format("woff2"),
+    url("../component/fonts/PPRightGrotesk-Medium.woff") format("woff"),
+    url("../component/fonts/PPRightGrotesk-Medium.otf") format("opentype"),
+    url("../component/fonts/PPRightGrotesk-Medium.ttf") format("truetype"),
+    url("../component/fonts/PPRightGrotesk-Medium.eot")
       format("embedded-opentype");
-
   font-weight: normal;
   font-style: normal;
 }

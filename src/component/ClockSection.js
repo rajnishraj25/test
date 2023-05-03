@@ -50,9 +50,9 @@ const ClockSection = () => {
               <h3 className="font-ppright text-2xl md:text-[28px] font-medium">
                 Eligibility
               </h3>
-              <p className="inter text-xs md:text-[18px] font-normal">
+              <p className="inter text-xs md:text-[18px] md:leading-[19px] tracking-[-0.5px] font-normal mt-1">
                 4 Years B.Tech, B.Sc or Master’s degree in Science, MCA or
-                related field 1-2 Years of Industry Experience
+                related field2 Years of Industry Experience
               </p>
             </div>
           </div>
@@ -62,9 +62,11 @@ const ClockSection = () => {
               <h3 className="font-ppright text-2xl md:text-[28px] font-medium">
                 Programme Schedule
               </h3>
-              <p className="inter text-xs md:text-[18px] font-normal">
-                Saturdays and Sundays: 3 hour sessions each day Weekdays: 4 hour
-                sessions by Industry Experts
+              <p className="inter text-xs md:text-[18px] md:leading-[19px] tracking-[-0.5px] font-normal mt-1">
+                <span className="font-bold"> Saturdays and Sundays: </span> 3
+                hour sessions each day <br />
+                <span className="font-bold"> Weekdays:</span> 4 hour sessions by
+                Industry Experts
               </p>
             </div>
           </div>
@@ -74,9 +76,10 @@ const ClockSection = () => {
               <h3 className="font-ppright text-2xl md:text-[28px] font-medium">
                 Learning Mode
               </h3>
-              <p className="inter text-xs md:text-[18px] font-normal">
-                Live Online Sessions Campus Immersion of 30 days 10 days after
-                each trimester
+              <p className="inter text-xs md:text-[18px] md:leading-[19px] tracking-[-0.5px] font-normal mt-1">
+                Live Online Sessions{" "}
+                <span className="font-bold"> Campus Immersion </span> of 30 days
+                 (10 days after each trimester) 
               </p>
             </div>
           </div>

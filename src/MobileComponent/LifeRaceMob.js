@@ -10,9 +10,11 @@ const LifeRaceMob = () => {
           <span className="bg-yello text-black"> stay ahead </span> <br /> in
           it?
         </h2>
-        <button className="min-w-[132px] px-6 rounded-[6px] py-2 bg-btnwhite text-black my-4">
-          Apply Now
-        </button>
+        <a href="https://admission.futurense.com/">
+          <button className="min-w-[132px] px-6 rounded-[6px] py-2 bg-btnwhite text-black my-4">
+            Apply Now
+          </button>
+        </a>
       </div>
     </div>
   );

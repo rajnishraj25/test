@@ -44,8 +44,8 @@ const AccordianImage = () => {
       <div className="hidden md:block w-full min-h-[747px] h-full">
         <div className="w-full h-full px-24 py-24">
           <div className="flex gap-20 h-full justify-between items-center">
-            <div className="max-w-[400px] w-full">
-              <h2 className="text-[56px] text-left text-btnwhite font-medium font-ppright leading-[56px] tracking-[-2px] pb-2 ">
+            <div className="max-w-[490px] w-full">
+              <h2 className="w-full text-[56px] text-left text-btnwhite font-medium font-ppright leading-[56px] tracking-[-2px] pb-2 ">
                 Not your typical PG <br /> Diploma Program! 
               </h2>
               <div className="max-h-[380px] max-w-[380px] w-full border">
@@ -222,16 +222,9 @@ const AccordianImage = () => {
                     <ul className="accordion-content text-lg inter font-medium text-btnwhite list-disc pl-4 pt-4">
                       <li className="py-1">
                         Fully Sponsored Futurense Bridge Course covering the
-                        foundations of the program  Futurense Job Assistance {" "}
+                        foundations of the program
                       </li>
-                      {/* <li className="py-1">
-                      Application-oriented approach along with case studies and
-                      project work{" "}
-                      </li>
-                      <li className="py-1">
-                      Transfer your credits towards Executive M. Tech Program by
-                      IIT Jodhpur
-                    </li> */}
+                      <li className="py-1"> Futurense Job Assistance  </li>
                     </ul>
                   )}
                 </div>

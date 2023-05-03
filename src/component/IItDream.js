@@ -1,6 +1,6 @@
 import React from "react";
 import Brochure from "../Assects/Brochure.pdf";
-import Suit from "../Assects/Suit.png";
+import Suit1 from "../Assects/Suit.png";
 import IItDreamMob from "../MobileComponent/IItDreamMob";
 
 const IItDream = () => {
@@ -20,8 +20,8 @@ const IItDream = () => {
             </a>
           </div>
         </div>
-        <div className="w-full min-h-[800px] mt-4">
-          <img src={Suit} alt="person" className="w-full h-full" />
+        <div className="w-full min-h-[800px] mt-4 ">
+          <img src={Suit1} alt="person" className="w-full h-full" />
         </div>
       </div>
       <IItDreamMob />

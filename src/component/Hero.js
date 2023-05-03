@@ -6,6 +6,7 @@ import HeroMob from "../MobileComponent/HeroMob";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import axios from "axios";
 
 const Hero = () => {
   const {
@@ -31,22 +32,46 @@ const Hero = () => {
     ),
     defaultValues: {},
   });
-  const onSubmit = () => {
+  const onSubmit = (data) => {
+    axios
+      .post("http://3.108.42.107:3000/jodhpur_backend/api.php", {
+        full_name: data.FullName,
+
+        contact_primay: data.ContactPrimary,
+
+        alternative_contact: data.AlternateContact,
+
+        email: data.Email,
+
+        qualification: data.Qualification,
+
+        city: data.City,
+
+        work_exprinace: data.Workexperience,
+
+        company_name: data.CompanyName,
+      })
+
+      .then((response) => {
+        console.log(response);
+      });
+
     reset();
   };
-
   return (
     <>
       <div className="w-full min-h-[792px] h-full bg_img hidden md:block  ">
         <div className="gredient w-full min-h-[792px] h-full relative z-10">
           <div className="gradient2 w-full min-h-[792px] h-full relative z-20">
             <div className="px-24">
-              <div className="flex items-center justify-between min-h-20">
-                <img
-                  src={logo}
-                  alt="logo"
-                  className="w-[72px] h-14 cursor-pointer"
-                />
+              <div className="flex items-center justify-between min-h-20 pt-2">
+                <a href="https://futurense.com/">
+                  <img
+                    src={logo}
+                    alt="logo"
+                    className="w-[72px] h-14 cursor-pointer"
+                  />
+                </a>
                 <a href="https://admission.futurense.com/" target="_blank">
                   <button className="w-auto relative btn_interaction text-sm font-medium h-10 bg-btnwhite rounded-md cursor-pointer text-black px-[50px] py-2">
                     Apply Now
@@ -127,6 +152,8 @@ const Hero = () => {
 
                     <div className="w-full">
                       <input
+                        name="AlternateContact"
+                        {...register("AlternateContact")}
                         type="phone"
                         placeholder="Alternative Contact "
                         className="px-1 py-3 pl-1 placeholder:text-center bg-transparent border-2 border-btnwhite outline-0 rounded-[5px] text-btnwhite font-medium w-full my-3"

@@ -1,6 +1,7 @@
 import React from "react";
 import Burger from "../Assects/Burger.png";
 import logo from "../Assects/logo.png";
+import Brochure from "../Assects/Brochure.pdf";
 
 const HeroMob = () => {
   return (
@@ -33,13 +34,18 @@ const HeroMob = () => {
                   Futurense Bridge Course
                 </p>
               </div>
-              <div className="w-full flex gap-4">
-                <button className="min-w-[132px] px-2 rounded-[6px] py-2 bg-btnwhite text-black">
-                  Become an IITian
-                </button>
-                <button className="min-w-[132px] px-2 rounded-[6px] py-2 border-2 border-btnwhite text-btnwhite">
-                  Become an IITian
-                </button>
+              <div className="w-full flex gap-2">
+                 
+                <a href="https://admission.futurense.com/">
+                  <button className="w-auto px-2 rounded-[6px] py-2 bg-btnwhite text-black">
+                    Become an IITian
+                  </button>
+                </a>
+                <a href={Brochure} download>
+                  <button className="w-auto px-2 rounded-[6px] py-2 border-2 border-btnwhite text-btnwhite">
+                    Download Brochure
+                  </button>
+                </a>
               </div>
             </div>
           </div>

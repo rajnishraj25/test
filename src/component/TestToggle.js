@@ -19,14 +19,10 @@ const TestToggle = () => {
         <div className="w-full px-24 py-24 h-full">
           <div className="text-center mt-15">
             <h3 className="text-[82px] line_height font-ppright font-medium  tracking-[-5px] text-btnwhite ">
-              <span className="relative z-10">
-                {" "}
-                Life is a race,
-                <span className="w-full h-0 border-2 border-yello absolute left-0  top-20 z-20">
-                  {" "}
-                </span>
+              <span className="line1">Life is a race, </span>
+              why not <span className="bg-yello text-black">
+                stay ahead{" "}
               </span>{" "}
-              why not <span className="bg-yello text-black">stay ahead </span>{" "}
               in it?
             </h3>
             <a href="https://admission.futurense.com/" target="_blank">
@@ -35,7 +31,7 @@ const TestToggle = () => {
               </button>
             </a>
           </div>
-          <div className="flex items-center w-full h-full justify-between gap-8 mt-8">
+          <div className="flex items-center w-full h-full justify-between gap-8 mt-12">
             <div className="max-w-[465px] w-full h-[135px] text-btnwhite">
               <h2
                 className={`text-[64px] font-medium font-ppright leading-[64px] tracking-tight p-2 cursor-pointer ${
@@ -73,7 +69,7 @@ const TestToggle = () => {
                     prestigious IIT PG Diploma credential to accelerate your
                     career.
                   </p>
-                  <p className="my-4 border-l-2 border-yello pl-1">
+                  <p className="my-4 border-l-2 border-yello pl-1 mt-4">
                     you are an aspiring or a current software and technology
                     professional, this PG diploma program will help you hone
                     high in-demand skills such as big data engineering, cloud
@@ -101,19 +97,6 @@ const TestToggle = () => {
                     registration to the Program. (The applicant must qualify the
                     pre-screen test conducted by Futurense)
                   </p>
-                  {/* <p className="my-2 border-l-2 border-yello pl-1">
-                  Have a work expeirence of minimum 2 years (after qualifying
-                    degree)
-                    </p>
-                    <p className="my-2 border-l-2 border-yello pl-1">
-                    Have a work expeirence of minimum 2 years (after qualifying
-                      degree)
-                      </p>
-                      <p className="my-1 border-l-2 border-yello pl-1">
-                  Qualify for the written test conducted by Futurense Qualify
-                  for the written test conducted by Futurense Have the zeel to
-                  keep up with the ongoing trends in technology space
-                </p> */}
                 </div>
               )}
             </div>

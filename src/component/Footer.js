@@ -83,7 +83,7 @@ const Footer = () => {
             <a href="https://www.youtube.com/channel/UCpIzW0SV6I5HLxrXgnTQzXg">
               <img src={youtube} alt="logo" className="w-6 h-6" />
             </a>
-            <a href="https://www.instagram.com/futurensetech/">
+            <a href="https://www.linkedin.com/company/66648516/admin/">
               <img src={linkdine1} alt="logo" className="w-6 h-6" />
             </a>
             <a href="https://www.facebook.com/futurensetech">
@@ -95,7 +95,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      {/* <FooterMob /> */}
+      <FooterMob />
     </>
   );
 };

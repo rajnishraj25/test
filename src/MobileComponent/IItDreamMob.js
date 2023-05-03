@@ -1,5 +1,6 @@
 import React from "react";
-import Suit from "../Assects/Suit.png";
+import Suit1 from "../Assects/Suit.png";
+import Brochure from "../Assects/Brochure.pdf";
 
 const IItDreamMob = () => {
   return (
@@ -11,12 +12,14 @@ const IItDreamMob = () => {
           <span className="bg-yello text-black"> Not a dream </span> <br />
           anymore !
         </h2>
-        <button className="min-w-[132px] px-6 rounded-[6px] py-2 bg-btnwhite text-black my-4">
-          Download Brochure
-        </button>
+        <a href={Brochure} download>
+          <button className="min-w-[132px] px-6 rounded-[6px] py-2 bg-btnwhite text-black my-4">
+            Download Brochure
+          </button>
+        </a>
       </div>
       <div className="w-full min-h-[215px] py-4">
-        <img src={Suit} alt="suit" className="w-full h-full" />
+        <img src={Suit1} alt="suit" className="w-full h-full" />
       </div>
     </div>
   );

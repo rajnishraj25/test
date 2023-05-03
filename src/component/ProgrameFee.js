@@ -15,7 +15,7 @@ const ProgrameFee = () => {
             *Including Campus Immersion Costs
           </p>
           <div className="w-200 h-auto">
-            <a href="https://admission.futurense.com/" target="_blank">
+            <a href="https://admission.futurense.com/">
               <button className="w-auto h-[40] rounded-[6px] px-[65px] py-3 bg-btnwhite md:mt-8 inter font-medium text-base text-center text-black inter relative btn_interaction">
                 Apply Now
               </button>
